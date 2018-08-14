@@ -1,0 +1,63 @@
+page-home {
+
+    
+}
+div.scroll-content{
+    overflow: hidden;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    background-image: url('../../assets/trees.gif');
+    background-size: cover;
+    padding: 10px;
+    // margin: 5px;
+    // margin-top: 0px;
+    // blockquote{
+    //     float: left;
+    // }
+    div.home{
+        margin-top: 100px;
+        position: fixed;
+        margin-right: 10px;
+        margin-left: auto;
+        // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+        box-shadow:inset 0px 0px 10px antiquewhite;
+        border-radius: 10px;
+        h1{
+            text-align: center;
+            color: antiquewhite;
+            // text-decoration: blink;
+        }
+        blockquote.block1{
+            font-family: cursive;
+            color: blanchedalmond;
+            z-index: 10;
+            i{
+                color: aqua;
+            }
+        }
+        blockquote.block2{
+            color: black;
+            ion-item{
+                background-color: transparent;
+                color: blue;
+                box-shadow: inset 0px 0px 7px black;
+                border-radius: 6px;
+            }
+            img{
+                height: 50px;
+                border-radius: 6px;
+                box-shadow: 0px 0px 7px antiquewhite;
+            }
+
+            button{
+                box-shadow: inset 0px 0px 7px blue;
+                border-radius: 6px;
+            }
+        }
+    }
+}

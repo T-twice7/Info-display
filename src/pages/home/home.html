@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>
+      MOTIVATIONS
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+  <div class="home">
+    <h1>WELCOME TO MOTI-INSPIRATIONS</h1>
+    <blockquote class="block2">
+      <p><b>Enter your name below</b> to<br>
+        see the inspiration!
+    </p>
+    <ion-item>
+        <ion-label floating>Enter your name:</ion-label>
+        <ion-input type="text" #Name></ion-input>
+      </ion-item>
+  <img src="../../assets/make it.gif" height="60px" width="250px"/>
+
+  <button ion-button (click)="show(Name.value)" small outline>START</button>
+  </blockquote>
+
+    <blockquote class="block1">Moti-Inspirations is the reason for people's actions, desires, and needs. It is also one's direction to behavior, or what causes a person to want to repeat a behavior.<b>For more motivations...<i>Click the links on the next page</i></b>
+    </blockquote>
+  </div>
+</ion-content>
